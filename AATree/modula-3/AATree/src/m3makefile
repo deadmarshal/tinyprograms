@@ -1,0 +1,9 @@
+import("libm3")
+import("libsio")
+import("stable")
+generic_module("AATree")
+template("AATree")
+AATree("Int","Integer")
+implementation("Main")
+program("main")
+

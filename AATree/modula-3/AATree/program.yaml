@@ -1,0 +1,8 @@
+source:
+
+prepare:
+  - cm3
+run: ./AMD64_DARWIN/main {PROGRAM}
+
+authors:
+  - deadmarshal

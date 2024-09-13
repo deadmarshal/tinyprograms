@@ -1,0 +1,12 @@
+readonly proc AATree(nm,key) is
+  local tree = nm & "AATree"
+  build_generic_intf(tree,"AATree",[key],VISIBLE)
+  build_generic_impl(tree,"AATree",[key])
+end
+
+readonly proc aATree(nm,key) is
+  local tree = nm & "AATree"
+  build_generic_intf(tree,"AATree",[key],HIDDEN)
+  build_generic_impl(tree,"AATree",[key])
+end
+
